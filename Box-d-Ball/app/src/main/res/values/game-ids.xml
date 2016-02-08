@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+<string name="app_id">153616193729</string>
+<string name="package_name">com.archer.box_d_ball</string>
+<string name="achievement_a1">CgkIwbH0obwEEAIQAg</string>
+<string name="achievement_a2">CgkIwbH0obwEEAIQAw</string>
+<string name="achievement_a3">CgkIwbH0obwEEAIQBA</string>
+<string name="achievement_a4">CgkIwbH0obwEEAIQBQ</string>
+<string name="achievement_a5">CgkIwbH0obwEEAIQBg</string>
+<string name="leaderboard_top_score">CgkIwbH0obwEEAIQAQ</string>
+</resources>

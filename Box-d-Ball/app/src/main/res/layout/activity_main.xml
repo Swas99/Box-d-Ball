@@ -1,0 +1,96 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_white_gradient_with_border"
+    android:id="@+id/main_container"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/tvTitle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:id="@+id/tvPause"
+            android:text="||"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:typeface="sans"
+            />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:paddingRight="3dp"
+            android:paddingEnd="3dp"
+            android:paddingTop="2dp"
+            android:id="@+id/tvScore"
+            android:text="3"
+            android:textSize="32sp"
+            android:textColor="#000000"
+            android:typeface="sans"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_margin="45dp"
+        android:text="@string/instruction_1"
+        android:typeface="monospace"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:id="@+id/tvInstruction"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:id="@+id/ball"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:keepScreenOn="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/black_ball"/>
+
+    <TextView
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:id="@+id/box"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background_box_perfect_score"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"/>
+
+</RelativeLayout>

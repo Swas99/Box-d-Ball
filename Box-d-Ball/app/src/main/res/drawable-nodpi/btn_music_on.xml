@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item  >
+        <shape android:shape="oval"
+            >
+            <stroke android:width="2dp" android:color="#FFFFFF" />
+            <padding android:bottom="7dp"
+                android:left="7dp"
+                android:right="9dp"
+                android:top="7dp"
+                />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/img_music_on" />
+    </item>
+
+
+
+</layer-list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item  >
+        <shape android:shape="oval"
+            >
+            <stroke android:width="3dp" android:color="#FFFFFF" />
+            <padding android:bottom="27dp"
+                android:left="33dp"
+                android:right="27dp"
+                android:top="27dp"
+                />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/img_btn_play" />
+    </item>
+
+
+
+</layer-list>
