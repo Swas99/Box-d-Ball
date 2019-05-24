@@ -9,6 +9,9 @@
     <string name="help_header"><b><u> Help </u></b></string>
     <string name="helper_title_control_the_ball"><u><b>Control the Ball</b></u></string>
 
+    <string name="help">help</string>
+    <string name="instruction_2">Keep the ball inside the box</string>
+    <string name="instruction_1">Control the ball by tilting device</string>
 
     <!--ad publisher ID-->
     <string name="banner_ad_unit_id">ca-app-pub-4622920858510017/4770769283</string>
@@ -29,8 +32,5 @@
     <string name="app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
     <string name="license_failed">License check failed.</string>
     <string name="unknown_error">Unknown error.</string>
-    <string name="help">help</string>
-    <string name="instruction_2">Keep the ball inside the box</string>
-    <string name="instruction_1">Control the ball by tilting device</string>
 
 </resources>
